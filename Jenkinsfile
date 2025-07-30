@@ -9,9 +9,8 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                sh './hello.sh'
+                sh './terraform/hello.sh'
             }
         }
     }
 }
-
